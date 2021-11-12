@@ -1109,7 +1109,7 @@ app = flask.Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>Distant Jobs Matching</h1>
+    return '''<h1>Distant Jobs Matching from Sawajob</h1>
 <p>A prototype API for distant Match Jobs CV.</p>'''
 
 @app.errorhandler(404)
